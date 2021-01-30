@@ -77,6 +77,6 @@ networkspeed=1
 For example:
 ``` go
 package_extract_dir("META-INF/scripts", "/tmp");
-set_metadata("/tmp/fting.sh", "uid", 0, "gid", 0, "mode", 0777);
-run_program("/tmp/fting.sh");
+set_metadata("/tmp/omceditor.sh", "uid", 0, "gid", 0, "mode", 0777);
+run_program("/tmp/omceditor.sh");
 ```
